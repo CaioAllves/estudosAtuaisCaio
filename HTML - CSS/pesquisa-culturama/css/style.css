@@ -85,7 +85,7 @@ input[type="radio"],input[type="checkbox"]{
     width: auto;
 }
 
-input[type="tel"]{
+input[type="tel"],input[type="file"]{
     margin-bottom: 0;
 }
 
