@@ -13,11 +13,11 @@
     <title>Pesquisa Culturama</title>
 </head>
 <body>
-    <header>
-        <img src="/HTML - CSS/pesquisa-culturama/img/logo-culturama.png" alt="Logo da culturama">
-        <h1>Pesquisa online</h1>
-    </header>
     <main>
+        <header>
+            <img src="/HTML - CSS/pesquisa-culturama/img/logo-culturama.png" alt="Logo da culturama">
+            <h1>Pesquisa online</h1>
+        </header>
         <section>
             <form action="#" method="get">
 
@@ -26,19 +26,19 @@
                     <br>
                     <label for="name">Nome</label>
                     <input id="name" type="text" name="userName" required>
-                    <br><br>
+                    <br>
                     <label for="age">Idade</label>
                     <input id="age" type="number" name="userAge" required min="12" max="100">
-                    <br><br>
+                    <br>
                     <label for="birthDate">Data de nascimento</label>
                     <input id="birthDate" type="date" name="userBirthDate">
-                    <br><br>
+                    <br>
                     <label for="userEmail">Email</label>
                     <input id="userEmail" type="email" name="nameUserEmail" required>
-                    <br><br>
+                    <br>
                     <label for="userPhoneNumber">Telefone</label>
                     <input id="userPhoneNumber" type="tel" name="nameUserPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + Numero sem espaço ou hifen">
-                    <br><br>
+                    <br>
                     <label for="userImage">Upload de foto</label>
                     <input id="userImage" type="file" accept="image/*" name="nameUserImage">
                     <br>
@@ -58,7 +58,7 @@
                     <input id="noDef" type="radio" name="userGener" value="nao-informado">
                     <label for="noDef">Não informado</label>
                     
-                    <br><br>
+                    <br>
                     <label for="estadoCivil">Estado civil</label>
                     <select name="maritalStatus" id="estadoCivil">
                         <option value="nao-informado">Selecione</option>
@@ -66,7 +66,7 @@
                         <option value="namorando">Namorando</option>
                         <option value="solteiro">Solteiro</option>
                     </select>
-                    <br><br>
+                    <br>
                     <label for="estado">Estado</label>
                     <select name="userState" id="estado" required>
                         <option value="nao-informado">Selecione</option>
@@ -75,7 +75,7 @@
                         <option value="rio-de-janeiro">Rio de Janeiro</option>
                         <option value="sao-paulo">São Paulo</option>
                     </select>
-                    <br><br>
+                    <br>
                     <label for="userCity">Cidade</label>
                     <input id="userCity" type="text" name="nameUserCity" required>
                 </fieldset>
@@ -120,7 +120,7 @@
                     <input id="ruimSatisfacao" type="radio" name="userSatisfacao" value="ruim">
                     <label for="ruimSatisfacao">Ruim</label>
                     
-                    <br><br>
+                    <br>
                     
                     <label for="opiniao">Deixe sua opinião:</label>
                     <textarea name="userOpiniao" id="opiniao" placeholder="Digite sua opiniao aqui"></textarea>
@@ -130,7 +130,7 @@
                     <legend>Confirmações</legend>
                     <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
                     <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
-                    <br><br>
+                    <br>
                     <input type="checkbox" name="userGetResult" id="userResult" value="accepted">
                     <label for="userResult">Eu aceito as respostas da pesquisa por email</label>
                 </fieldset>
@@ -140,6 +140,5 @@
             </form>
         </section>
     </main>
-    <footer></footer>
 </body>
 </html>
