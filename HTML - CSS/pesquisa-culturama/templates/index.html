@@ -39,13 +39,18 @@
 
                 <fieldset>
                     <legend>Perfil</legend>
+                    
                     <p>Genero: </p>
+                    
                     <input id="fem" type="radio" name="userGener" value="feminino">
                     <label for="fem">Feminino</label>
+                    
                     <input id="mal" type="radio" name="userGener" value="masculino">
                     <label for="mal">Masculino</label>
+                    
                     <input id="noDef" type="radio" name="userGener" value="nao-informado">
                     <label for="noDef">Não informado</label>
+                    
                     <br><br>
                     <label for="estadoCivil">Estado civil</label>
                     <select name="maritalStatus" id="estadoCivil">
@@ -61,8 +66,8 @@
                         <option value="espirito-santo">Espirito Santo</option>
                         <option value="minas-gerais">Minas Gerais</option>
                         <option value="rio-de-janeiro">Rio de Janeiro</option>
-                        <option value="sao-paulo">São Paulo</option>
                     </select>
+                        <option value="sao-paulo">São Paulo</option>
                     <br><br>
                     <label for="userCity">Cidade</label>
                     <input id="userCity" type="text" name="nameUserCity" required>
@@ -90,6 +95,29 @@
                     <br>
                     <label for="color">Cor favorita</label>
                     <input id="color" type="color" name="userColor">
+                </fieldset>
+                <fieldset>
+                    <legend>Satisfação</legend>
+                    
+                    <p>Selecione seu nivel de satisfação: </p>
+                    
+                    <input id="otimoSatisfacao" type="radio" name="userSatisfacao" value="otimo">
+                    <label for="otimoSatisfacao">Otimo</label>
+                    
+                    <input id="boaSatisfacao" type="radio" name="userSatisfacao" value="boa">
+                    <label for="boaSatisfacao">Boa</label>
+                    
+                    <input id="regularSatisfacao" type="radio" name="userSatisfacao" value="regular">
+                    <label for="regularSatisfacao">Regular</label>
+                    
+                    <input id="ruimSatisfacao" type="radio" name="userSatisfacao" value="ruim">
+                    <label for="ruimSatisfacao">Ruim</label>
+                    
+                    <br><br>
+                    
+                    <label for="opiniao">Deixe sua opinião:</label>
+                    <textarea name="userOpiniao" id="opiniao" placeholder="Digite sua opiniao aqui"></textarea>
+
                 </fieldset>
                 <br>
                 <button type="submit">Enviar</button>
