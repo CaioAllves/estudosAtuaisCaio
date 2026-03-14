@@ -1,0 +1,8 @@
+1. Criar uma nova branch a partir da main.
+2. Implementar a modificação localmente.
+3. Adicionar e versionar os arquivos (git add e git commit).
+4. Enviar a branch para o repositório remoto (git push).
+5. Abrir um pull request no GitHub.
+6. Após a aprovação do time, a branch é mesclada na main.
+7. oltar para a main e atualizar seu repositório local (git pull).
+
