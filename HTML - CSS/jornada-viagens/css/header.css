@@ -2,11 +2,21 @@
   display: inline-block;
   width: 60px;
   height: 64px;
-  margin: 36px 0 0 48px;
+}
+
+.navegacao {
+  margin-top: 24px;
 }
 
 header {
-  width: 100%;
-  height: 138px;
   background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+}
+
+nav {
+  display: none;
 }
