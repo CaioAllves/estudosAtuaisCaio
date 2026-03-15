@@ -1,0 +1,22 @@
+.logo {
+  display: inline-block;
+  width: 60px;
+  height: 64px;
+}
+
+.navegacao {
+  margin-top: 24px;
+}
+
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+}
+
+nav {
+  display: none;
+}
