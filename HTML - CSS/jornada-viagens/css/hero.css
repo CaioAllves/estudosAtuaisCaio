@@ -1,0 +1,25 @@
+.hero-img {
+  height: 400px;
+  width: 100%;
+  background: url("/HTML - CSS/jornada-viagens/img/banner-homepage-mobile.png")
+    no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background: url("/HTML - CSS/jornada-viagens/img/banner-homepage-tablet.png")
+      no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background: url("/HTML - CSS/jornada-viagens/img/banner-homepage-desktop.png")
+      no-repeat;
+    background-size: cover;
+  }
+}
