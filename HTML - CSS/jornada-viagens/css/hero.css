@@ -1,0 +1,49 @@
+.hero-img {
+  height: 400px;
+  width: 100%;
+  background: url("/HTML - CSS/jornada-viagens/img/banner-homepage-mobile.png")
+    no-repeat;
+  background-size: cover;
+}
+
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  font-weight: var(--text-weigth);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background: url("/HTML - CSS/jornada-viagens/img/banner-homepage-tablet.png")
+      no-repeat;
+    background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background: url("/HTML - CSS/jornada-viagens/img/banner-homepage-desktop.png")
+      no-repeat;
+    background-size: 100%;
+  }
+
+  .hero h2 {
+    padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 88px 160px;
+  }
+}
