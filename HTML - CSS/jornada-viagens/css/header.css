@@ -1,13 +1,3 @@
-.logo {
-  display: inline-block;
-  width: 60px;
-  height: 64px;
-}
-
-.navegacao {
-  margin-top: 24px;
-}
-
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
@@ -31,6 +21,24 @@ nav {
   display: none;
 }
 
+.logo {
+  display: inline-block;
+  width: 60px;
+  height: 64px;
+}
+
+.img-mobile {
+  display: block;
+}
+
+.img-desktop {
+  display: none;
+}
+
+.navegacao {
+  margin-top: 24px;
+}
+
 .list-links {
   list-style: none;
 }
@@ -42,4 +50,61 @@ nav {
 .list-links li a {
   color: var(--text-secundary-color);
   text-decoration: none;
+  font-size: 24px;
+  font-weight: var(--menu-text-weigth);
+}
+
+@media screen and (min-width: 768px) {
+  .navegacao {
+    margin-top: 0;
+    width: 467px;
+  }
+
+  .navegacao label {
+    display: none;
+  }
+
+  .navegacao nav {
+    display: block;
+  }
+
+  .navegacao ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .navegacao li {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .img-desktop {
+    display: block;
+  }
+
+  .logo {
+    width: 260px;
+    height: 64px;
+  }
+
+  .navegacao a:hover {
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
+  }
 }
