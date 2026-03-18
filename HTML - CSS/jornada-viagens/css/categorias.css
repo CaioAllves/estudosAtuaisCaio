@@ -1,0 +1,5 @@
+.categoria-cartao article a h3 {
+  color: var(--text-primary-color);
+  font-weight: var(--title-weigth);
+  font-size: 28px;
+}

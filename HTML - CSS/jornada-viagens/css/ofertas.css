@@ -1,0 +1,103 @@
+.oferta-cartoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.card {
+  background-color: var(--background-secundary-color);
+  color: var(--text-secundary-color);
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card header {
+  background-color: transparent;
+  display: block;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+}
+
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weigth);
+  margin: 8px 0 0;
+}
+
+.card header span {
+  display: inline-block;
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.japao {
+  background: url(../img/bg-card-japao.jpg) no-repeat;
+  background-size: cover;
+}
+
+.san-andreas {
+  background: url(../img/bg-card-san-andreas.jpg) no-repeat;
+  background-size: cover;
+}
+
+.paraiba {
+  background: url(../img/bg-card-paraiba.jpg) no-repeat;
+  background-size: cover;
+}
+
+.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .oferta-cartoes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 420px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .oferta-cartoes {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
