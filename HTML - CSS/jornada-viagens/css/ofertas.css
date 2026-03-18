@@ -7,12 +7,15 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  margin-top: 24px;
 }
 
 .card header {
   background-color: transparent;
   display: block;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
@@ -23,7 +26,7 @@
 .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weigth);
-  margin-top: 8px 0 0;
+  margin: 8px 0 0;
 }
 
 .card header span {
@@ -34,4 +37,19 @@
 
 .card a {
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
 }
