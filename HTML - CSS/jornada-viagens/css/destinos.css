@@ -39,6 +39,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .destinos {
+    margin: 0 60px;
+  }
+
   .destinos-cartoes article header p {
     align-self: flex-start;
     text-align: justify;
@@ -61,6 +65,12 @@
     height: 452px;
     background: url(../img/Osaka-tablet.png) no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinos {
+    margin: 0 100px;
   }
 }
 
