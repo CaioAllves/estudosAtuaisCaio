@@ -1,3 +1,7 @@
+.busca {
+  margin-top: 88px;
+}
+
 .busca-cartoes {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,7 @@
 
 @media screen and (min-width: 1440px) {
   .busca-cartoes {
+    margin: 0 122px;
     flex-direction: row;
     flex-wrap: nowrap;
   }
