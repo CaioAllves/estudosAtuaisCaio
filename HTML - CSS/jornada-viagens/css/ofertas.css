@@ -1,3 +1,7 @@
+.ofertas {
+  margin-bottom: 88px;
+}
+
 .oferta-cartoes {
   display: flex;
   flex-direction: column;
