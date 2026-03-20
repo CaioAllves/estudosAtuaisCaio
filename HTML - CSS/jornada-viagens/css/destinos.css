@@ -1,7 +1,101 @@
 .destinos-cartoes header {
   background-color: transparent;
-  display: block;
-  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   margin-bottom: 24px;
+}
+
+.destinos-cartoes article {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.destinos-cartoes article header h4 {
+  align-self: flex-start;
+  text-align: justify;
+  font-size: 28px;
+  font-weight: var(--title-weigth);
+}
+
+.destinos-cartoes article header p {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+}
+
+.imagem-destino-tokyo {
+  width: 312px;
+  height: 360px;
+  background: url(../img/Tokyo-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.imagem-destino-osaka {
+  width: 312px;
+  height: 360px;
+  background: url(../img/Osaka-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .destinos-cartoes article header p {
+    align-self: flex-start;
+    text-align: justify;
+  }
+
+  .destinos-cartoes article footer a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem-destino-tokyo {
+    width: 648px;
+    height: 452px;
+    background: url(../img/Tokyo-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .imagem-destino-osaka {
+    width: 648px;
+    height: 452px;
+    background: url(../img/Osaka-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinos {
+    margin: 0 120px;
+  }
+  .destinos-cartoes {
+    display: flex;
+  }
+
+  .tokyo {
+    margin-right: 24px;
+  }
+
+  .destinos-cartoes article header p {
+    align-self: flex-start;
+    text-align: justify;
+  }
+
+  .destinos-cartoes article footer a {
+    flex-direction: column;
+  }
+
+  .imagem-destino-tokyo {
+    width: 588px;
+    height: 452px;
+    background: url(../img/Tokyo-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .imagem-destino-osaka {
+    width: 588px;
+    height: 452px;
+    background: url(../img/Osaka-tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
