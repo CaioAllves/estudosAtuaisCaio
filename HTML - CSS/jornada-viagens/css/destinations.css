@@ -1,0 +1,10 @@
+.destinations {
+  margin-top: 88px;
+}
+
+.destination-items .item header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+}
