@@ -3,24 +3,20 @@
   margin: 0 auto;
 }
 
-.item {
+.destinations .item {
   margin-bottom: 40px;
 }
 
-.item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
+.destinations .item h4 {
   text-align: justify;
 }
 
-.item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
+.destinations .item p {
   text-align: justify;
   margin-bottom: 24px;
 }
 
-.item footer a {
+.destinations .item footer a {
   width: 312px;
   text-align: center;
 }
