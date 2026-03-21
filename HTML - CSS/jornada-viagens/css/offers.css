@@ -5,7 +5,7 @@
   gap: 24px;
 }
 
-.card {
+.offers-cards .card {
   color: var(--text-secundary-color);
   background-color: black;
   width: 312px;
@@ -16,25 +16,25 @@
   text-align: center;
 }
 
-.card header {
+.offers-cards .card header {
   display: block;
   background-color: transparent;
   position: static;
   padding: 0;
 }
 
-.card header p {
+.offers-cards .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
 }
 
-.card section h3 {
+.offers-cards .card section h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 8px 0 24px 0;
 }
 
-.card section span {
+.offers-cards .card section span {
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
@@ -69,22 +69,22 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
 
-  .card section h3 {
+  .offers-cards .card section h3 {
     font-size: 48px;
   }
 
-  .card section span {
+  .offers-cards .card section span {
     font-size: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
     height: 308px;
   }
