@@ -16,16 +16,14 @@
   text-align: center;
 }
 
-.offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-}
-
 .offers-cards .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
+}
+
+.offers-cards .card section {
+  margin: 0;
+  width: 270px;
 }
 
 .offers-cards .card section h3 {
@@ -74,6 +72,10 @@
     height: 308px;
   }
 
+  .offers-cards .card section {
+    width: 370px;
+  }
+
   .offers-cards .card section h3 {
     font-size: 48px;
   }
@@ -87,6 +89,12 @@
   .offers-cards .card {
     width: 588px;
     height: 308px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .offers-cards .card section {
+    width: 560px;
   }
 }
 
