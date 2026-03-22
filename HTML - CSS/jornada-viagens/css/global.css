@@ -86,7 +86,8 @@ section {
   line-height: 64px;
 }
 
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
 }
 
