@@ -20,8 +20,29 @@
   height: 182px;
 }
 
+.payments .img-content .image.palace {
+  background: url(../img/palace-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .img-content .image.tower {
+  background: url(../img/tower-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .img-content .image.man {
+  background: url(../img/man-mobile.png) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 182px;
+}
+
 .payments .img-content .image.large {
   grid-column: span 2;
+}
+
+.payments .content-container .text-content h2 {
+  font-size: 40px;
 }
 
 .img-content {
@@ -52,6 +73,22 @@
     background-size: cover;
     width: 648px;
   }
+
+  .payments .img-content .image.palace {
+    background: url(../img/palace-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.tower {
+    background: url(../img/tower-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.man {
+    background: url(../img/man-tablet.png) no-repeat;
+    background-size: cover;
+    width: 648px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -75,6 +112,22 @@
     width: 600px;
   }
 
+  .payments .img-content .image.palace {
+    background: url(../img/palace-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.tower {
+    background: url(../img/tower.desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.man {
+    background: url(../img/man-desk.png) no-repeat;
+    background-size: cover;
+    width: 600px;
+  }
+
   .content-container {
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -89,19 +142,8 @@
     width: 405px;
   }
 
-  .payments .img-content .image.bags {
-    background: url(../img/bag-desk.png) no-repeat;
-    background-size: cover;
-  }
-
-  .payments .img-content .image.passport {
-    background: url(../img/passport-desk.png) no-repeat;
-    background-size: cover;
-  }
-
-  .payments .img-content .image.people {
-    background: url(../img/people-desk.png) no-repeat;
-    background-size: cover;
+  .payments .img-content .image.people,
+  .payments .img-content .image.man {
     width: 840px;
   }
 
