@@ -1,7 +1,20 @@
-.image-hero {
+section.bottom-hero {
+  margin: 0;
+}
+
+.hero .image-hero,
+.bottom-hero .image-hero {
   height: 400px;
   width: 100%;
+}
+
+.hero .image-hero {
   background: url(../img/hero-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .image-hero {
+  background: url(../img/bottom-hero-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -20,9 +33,15 @@
     font-size: 32px;
   }
 
-  .image-hero {
+  .hero .image-hero {
     height: 620px;
     background: url(../img/hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .image-hero {
+    height: 400px;
+    background: url(../img/bottom-hero-tablet.png) no-repeat;
     background-size: cover;
   }
 }
@@ -32,8 +51,14 @@
     padding: 88px 120px;
   }
 
-  .image-hero {
+  .hero .image-hero {
     background: url(../img/hero-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .image-hero {
+    height: 600px;
+    background: url(../img/bottom-hero-desk.png) no-repeat;
     background-size: cover;
   }
 }
