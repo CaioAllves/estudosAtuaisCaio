@@ -87,7 +87,9 @@ section {
 }
 
 section.hero,
-section.bottom-hero {
+section.bottom-hero,
+section.hero-pack,
+section.bottom-hero-packcage {
   width: 100%;
 }
 

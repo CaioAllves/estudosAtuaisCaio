@@ -1,9 +1,12 @@
-section.bottom-hero {
+section.bottom-hero,
+section.bottom-hero-packcage {
   margin: 0;
 }
 
 .hero .image-hero,
-.bottom-hero .image-hero {
+.bottom-hero .image-hero,
+.bottom-hero-packcage .image-hero,
+.hero-pack {
   height: 400px;
   width: 100%;
 }
@@ -18,6 +21,40 @@ section.bottom-hero {
   background-size: cover;
 }
 
+.bottom-hero-packcage .image-hero {
+  background: url(../img/bottom-hero-packcage-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.hero-pack {
+  background: url(../img/hero-pack-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.hero-pack article {
+  padding: 65px 24px;
+}
+
+.hero-pack .section-title hr {
+  margin: 0;
+}
+
+.hero-pack .section-title h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero-pack article p {
+  margin-top: 32px;
+  font-size: 20px;
+}
+
+.hero-pack h2,
+.hero-pack p {
+  color: var(--text-secundary-color);
+  text-align: justify;
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -28,6 +65,17 @@ section.bottom-hero {
 }
 
 @media screen and (min-width: 768px) {
+  .hero-pack {
+    height: 620px;
+  }
+
+  .hero-pack article {
+    padding: 208px 68px 108px 120px;
+  }
+  .hero-pack article p {
+    font-size: 32px;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -44,9 +92,23 @@ section.bottom-hero {
     background: url(../img/bottom-hero-tablet.png) no-repeat;
     background-size: cover;
   }
+
+  .bottom-hero-packcage .image-hero {
+    background: url(../img/bottom-hero-packcage-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hero-pack {
+    background: url(../img/hero-pack-tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .hero-pack article {
+    padding: 120px 360px 108px 120px;
+  }
+
   .hero h2 {
     padding: 88px 120px;
   }
@@ -63,8 +125,33 @@ section.bottom-hero {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-pack article {
+    padding: 130px 600px 108px 120px;
+  }
+
+  .hero-pack article {
+    padding: 268px 740px 158px 120px;
+  }
+
+  .hero-pack {
+    background: url(../img/hero-pack-desk-large.png) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero-packcage .image-hero {
+    height: 600px;
+    background: url(../img/bottom-hero-packcage-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  .hero-pack article {
+    padding: 130px 930px 110px 600px;
   }
 }

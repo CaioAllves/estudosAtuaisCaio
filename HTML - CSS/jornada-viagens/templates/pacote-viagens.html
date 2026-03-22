@@ -19,7 +19,7 @@
     <meta name="og:type" content="website" />
     <meta
       name="og:url"
-      content="http://127.0.0.1:5500/HTML%20-%20CSS/jornada-viagens/templates/index.html"
+      content="http://127.0.0.1:5500/HTML%20-%20CSS/jornada-viagens/templates/pacote-viagens.html"
     />
     <link rel="stylesheet" href="/HTML - CSS/jornada-viagens/css/style.css" />
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
@@ -27,7 +27,7 @@
   </head>
   <body>
     <header class="main-header">
-      <a class="logo" href="#" title="Pagina inicial">
+      <a class="logo" href="index.html" title="Pagina inicial">
         <img
           class="img-mobile"
           src="../img/bussola-jornada-branco.png"
@@ -46,116 +46,40 @@
         <input type="checkbox" id="menu" hidden />
         <nav>
           <ul class="list-links">
-            <li><a href="#" target="_blank" title="Blog">Blog</a></li>
+            <li>
+              <a href="#" target="_blank" title="Blog">Blog</a>
+            </li>
             <li>
               <a
-                href="pacote-viagens.html"
+                class="active"
+                href="#"
                 target="_blank"
                 title="Pagina de pacotes"
                 >Pacotes de viagem</a
               >
             </li>
-            <li><a href="#" target="_blank" title="Contato">Contato</a></li>
+            <li>
+              <a href="#" target="_blank" title="Contato">Contato</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="hero">
-      <div class="image-hero"></div>
-      <h2>
-        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
-        à seleção das atividades, cuidamos de todos os detalhes para que você
-        aproveite ao máximo cada momento da sua jornada!
-      </h2>
-    </section>
-    <section class="offers">
-      <div class="section-title">
-        <h2>Ofertas da Semana</h2>
-        <hr />
-      </div>
-      <div class="offers-cards">
-        <article class="card japao">
-          <header><p class="text-content">HOTEL+AÉREO</p></header>
-          <section>
-            <h3 class="title-content">Japão <br /><span>R$4000</span></h3>
-          </section>
-          <footer><a href="#" class="button">Ver detalhes</a></footer>
-        </article>
-        <article class="card san-andreas">
-          <header><p class="text-content">HOTEL+AÉREO</p></header>
-          <section>
-            <h3 class="title-content">San andreas <br /><span>R$3000</span></h3>
-          </section>
-          <footer><a href="#" class="button">Ver detalhes</a></footer>
-        </article>
-        <article class="card paraiba">
-          <header><p class="text-content">HOTEL+AÉREO</p></header>
-          <section>
-            <h3 class="title-content">Paraiba <br /><span>R$1200</span></h3>
-          </section>
-          <footer><a href="#" class="button">Ver detalhes</a></footer>
-        </article>
-        <article class="card manaus">
-          <header><p class="text-content">HOTEL+AÉREO</p></header>
-          <section>
-            <h3 class="title-content">Manaus <br /><span>R$1600</span></h3>
-          </section>
-          <footer><a href="#" class="button">Ver detalhes</a></footer>
-        </article>
-      </div>
-    </section>
-    <section class="categories">
-      <div class="section-title">
-        <h2>Busque por categoria</h2>
-        <hr />
-      </div>
-      <div class="categories-cards">
-        <a
-          class="card"
-          href="#"
-          target="_blank"
-          title="Busca por pacotes nacionais"
-          ><img
-            src="../img/pacotes nacionais.png"
-            alt="Busca por pacotes de viagem nacionais"
-          />
-          <h3 class="content-title">Pacotes <br />nacionais</h3>
-        </a>
-        <a
-          class="card"
-          href="#"
-          target="_blank"
-          title="Busca por pacotes internacionais"
-          ><img
-            src="../img/pacotes interacionais.png"
-            alt="Busca por pacotes de viagem interacionais"
-          />
-          <h3 class="content-title">Pacotes <br />internacionais</h3>
-        </a>
-        <a
-          class="card transfer"
-          href="#"
-          target="_blank"
-          title="Busca por transfer"
-          ><img src="../img/transfer.png" alt="Busca por pacotes de transfer" />
-          <h3 class="content-title">Transfer</h3>
-        </a>
-        <a
-          class="card"
-          href="#"
-          target="_blank"
-          title="Busca por pacotes pacotes de seguro viagem"
-          ><img
-            src="../img/seguro viagem.png"
-            alt="Busca por pacotes de seguro viagem"
-          />
-          <h3 class="content-title">Seguro viagem</h3>
-        </a>
-      </div>
+    <section class="hero-pack">
+      <article>
+        <div class="section-title">
+          <h2>Conheça o Japão!</h2>
+          <hr />
+        </div>
+        <p>
+          A Jornada possui o pacote perfeito para seu estilo e orçamento!
+          Conheça as belas paisagens e a cultura milenar deste belo país!
+        </p>
+      </article>
     </section>
     <section class="destinations">
       <div class="section-title">
-        <h2>Destinos Populares</h2>
+        <h2>Destinos da Excursão</h2>
         <hr />
       </div>
       <div class="destination-items">
@@ -203,21 +127,22 @@
     </section>
     <section class="payments">
       <div class="section-title">
-        <h2>Condições de pagamento</h2>
+        <h2>Pagamento</h2>
         <hr />
       </div>
       <div class="content-container">
         <div class="text-content">
-          <h3 class="content-title">Parcelamento em até 12x!</h3>
+          <h2 class="content-title">R$4000</h2>
+          <h3 class="content-title">Em até 12x!</h3>
           <p class="content-text">
             Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
             5% de desconto ou no Pix com 10% de desconto!
           </p>
         </div>
         <div class="img-content">
-          <div class="image bags"></div>
-          <div class="image passport"></div>
-          <div class="image people large"></div>
+          <div class="image palace"></div>
+          <div class="image tower"></div>
+          <div class="image man large"></div>
         </div>
       </div>
     </section>
@@ -237,11 +162,11 @@
           </header>
           <footer>
             <img
-              src="../img/talita-avatar.png"
+              src="../img/julio-avatar.png"
               alt="Imagem de perfil do cliente talita"
             />
             <div class="profile-content">
-              <h3 class="content-title">Talita Villas Boas</h3>
+              <h3 class="content-title">Julio Garibaldi</h3>
               <div class="stars-content">
                 <span class="star">★</span>
                 <span class="star">★</span>
@@ -262,11 +187,11 @@
           </header>
           <footer>
             <img
-              src="../img/amari-avatar.png"
+              src="../img/lucia-avatar.png"
               alt="Imagem de perfil do cliente amari"
             />
             <div class="profile-content">
-              <h3 class="content-title">Amari Salin</h3>
+              <h3 class="content-title">Lucia S. Rabelo</h3>
               <div class="stars-content">
                 <span class="star">★</span>
                 <span class="star">★</span>
@@ -286,11 +211,11 @@
           </header>
           <footer>
             <img
-              src="../img/lauro-avatar.png"
+              src="../img/olga-avatar.png"
               alt="Imagem de perfil do cliente lauro"
             />
             <div class="profile-content">
-              <h3 class="content-title">Lauro B. Matos</h3>
+              <h3 class="content-title">Olga dos Reis</h3>
               <div class="stars-content">
                 <span class="star">★</span>
                 <span class="star">★</span>
@@ -303,7 +228,7 @@
         </article>
       </div>
     </section>
-    <section class="bottom-hero">
+    <section class="bottom-hero-packcage">
       <div class="image-hero"></div>
     </section>
     <footer class="main-footer">
