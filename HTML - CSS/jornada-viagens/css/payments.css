@@ -1,0 +1,115 @@
+.payments .img-content .image {
+  width: 144px;
+  height: 254px;
+}
+
+.payments .img-content .image.bags {
+  background: url(../img/bag-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .img-content .image.passport {
+  background: url(../img/passport-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .img-content .image.people {
+  background: url(../img/people-mobile.png) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 182px;
+}
+
+.payments .img-content .image.large {
+  grid-column: span 2;
+}
+
+.img-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .img-content .image {
+    width: 312px;
+  }
+
+  .payments .img-content .image.bags {
+    background: url(../img/bag-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.passport {
+    background: url(../img/passport-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.people {
+    background: url(../img/people-tablet.png) no-repeat;
+    background-size: cover;
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .img-content .image {
+    width: 285px;
+  }
+
+  .payments .img-content .image.bags {
+    background: url(../img/bag-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.passport {
+    background: url(../img/passport-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.people {
+    background: url(../img/people-desk.png) no-repeat;
+    background-size: cover;
+    width: 600px;
+  }
+
+  .content-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .img-content .image {
+    width: 405px;
+  }
+
+  .payments .img-content .image.bags {
+    background: url(../img/bag-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.passport {
+    background: url(../img/passport-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .img-content .image.people {
+    background: url(../img/people-desk.png) no-repeat;
+    background-size: cover;
+    width: 840px;
+  }
+
+  .content-container {
+    display: grid;
+    grid-template-columns: 390px 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+  }
+}
