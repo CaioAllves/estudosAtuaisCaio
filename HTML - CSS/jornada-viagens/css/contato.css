@@ -1,0 +1,43 @@
+.contato .container-contato article section form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contato .container-contato article header p {
+  margin: 56px 24px;
+  text-align: center;
+}
+
+.contato .container-contato article section form input {
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 20px;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 64px;
+}
+
+.contato .container-contato article section form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 64px;
+}
+
+.contato .container-contato article section form button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+.contato .container-contato article section form input:invalid,
+.contato .container-contato article section form select:invalid,
+.contato .container-contato article section form textarea:invalid {
+  border-color: red;
+}
+
+.contato .container-contato article section form input:valid,
+.contato .container-contato article section form select:valid,
+.contato .container-contato article section form textarea:valid {
+  border-color: green;
+}
