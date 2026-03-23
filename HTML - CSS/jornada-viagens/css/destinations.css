@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.destinations .destination-items .item figure {
+  margin: 0;
+}
+
 .destinations .item {
   margin-bottom: 40px;
 }
@@ -26,6 +30,11 @@
   height: 360px;
 }
 
+.tokyo-blog {
+  width: 312px;
+  height: 300px;
+}
+
 .tokyo {
   background: url(../img/Tokyo-mobile.png) no-repeat;
   background-size: cover;
@@ -36,11 +45,32 @@
   background-size: cover;
 }
 
+.tokyo-chegada {
+  background: url(../img/tokyo-chegada-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.hiroshima {
+  background: url(../img/Hiroshima-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.kyoto {
+  background: url(../img/Kyoto-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .img-item {
     width: 648px;
     height: 452px;
   }
+
+  .tokyo-blog {
+    width: 648px;
+    height: 300px;
+  }
+
   .destinations .section-title {
     width: 100%;
   }
@@ -53,12 +83,45 @@
     background: url(../img/Osaka-tablet.png) no-repeat;
     background-size: cover;
   }
+
+  .tokyo-chegada {
+    background: url(../img/tokyo-chegada-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hiroshima {
+    background: url(../img/Hiroshima-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .kyoto {
+    background: url(../img/Kyoto-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations .destination-items .item-blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .destinations .destination-items .item-blog .text-content,
+  .destinations .destination-items .item-blog .tokyo-chegada {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .img-item {
     width: 400px;
     height: 279px;
+  }
+
+  .tokyo-blog {
+    width: 900px;
+    height: 600px;
   }
 
   .tokyo {
@@ -71,6 +134,21 @@
     background-size: cover;
   }
 
+  .tokyo-chegada {
+    background: url(../img/tokyo-chegada-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hiroshima {
+    background: url(../img/Hiroshima-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .kyoto {
+    background: url(../img/Kyoto-desk.png) no-repeat;
+    background-size: cover;
+  }
+
   .destination-items {
     display: flex;
     flex-direction: row;
@@ -78,12 +156,26 @@
     justify-content: center;
     gap: 24px;
   }
+
+  .destinations-items-blog {
+    flex-wrap: wrap;
+  }
+
+  .destination-items .osaka-blog,
+  .destination-items .hiroshima-blog,
+  .destination-items .kyoto-blog {
+    width: 310px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .img-item {
     width: 648px;
     height: 452px;
+  }
+
+  .tokyo-blog {
+    width: 1200px;
   }
 
   .tokyo {
@@ -94,5 +186,16 @@
   .osaka {
     background: url(../img/Osaka-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  .tokyo-chegada {
+    background: url(../img/tokyo-chegada-large.png) no-repeat;
+    background-size: cover;
+  }
+
+  .destination-items .osaka-blog,
+  .destination-items .hiroshima-blog,
+  .destination-items .kyoto-blog {
+    width: 440px;
   }
 }

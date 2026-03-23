@@ -89,7 +89,10 @@ section {
 section.hero,
 section.bottom-hero,
 section.hero-pack,
-section.bottom-hero-packcage {
+section.bottom-hero-packcage,
+section.hero-blog,
+section.hero-contato,
+section.bottom-hero-contato {
   width: 100%;
 }
 
