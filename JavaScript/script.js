@@ -59,3 +59,24 @@ console.log(typeof linhaDeTexto);
 console.log(typeof booleano);
 console.log(typeof naoSei);
 console.log(typeof simbolo);
+
+//operadores matematicos
+
+const numero1 = 1;
+const numero2 = 2;
+
+const subtracao = numero1 - numero2;
+const soma = numero1 + numero2;
+const multiplicacao = numero1 * numero2;
+const divisao = numero1 / numero2;
+const resto = numero1 % numero2;
+const complexo = numero1 + numero2 * numero2 - numero1;
+const potencia = numero2**numero2;
+
+console.log(`Subtracao: ${subtracao}`);
+console.log(`Soma: ${soma}`);
+console.log(`Multiplicacao: ${multiplicacao}`);
+console.log(`Divisao: ${divisao}`);
+console.log(`Resto: ${resto}`);
+console.log(`Complexo: ${complexo}`);
+console.log(`Potencia: ${potencia}`);
